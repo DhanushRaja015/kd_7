@@ -1,0 +1,6 @@
+[server]
+# Raise the upload limit to 2 GB (default is 200 MB)
+maxUploadSize = 2000
+
+[browser]
+gatherUsageStats = false

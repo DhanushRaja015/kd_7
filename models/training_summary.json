@@ -1,0 +1,45 @@
+{
+  "appliance_keys": [
+    "refrigerator",
+    "ceiling_fan",
+    "air_conditioner",
+    "washing_machine",
+    "electric_kettle"
+  ],
+  "n_estimators": 100,
+  "max_depth": null,
+  "on_threshold_w": 10.0,
+  "random_state": 42,
+  "per_appliance": {
+    "refrigerator": {
+      "train_samples": 997,
+      "power_mean_train": 92.22,
+      "on_fraction_train": 0.609,
+      "baseline_median_w": 139.43
+    },
+    "ceiling_fan": {
+      "train_samples": 997,
+      "power_mean_train": 44.91,
+      "on_fraction_train": 0.595,
+      "baseline_median_w": 70.21
+    },
+    "air_conditioner": {
+      "train_samples": 997,
+      "power_mean_train": 360.15,
+      "on_fraction_train": 0.261,
+      "baseline_median_w": 1.54
+    },
+    "washing_machine": {
+      "train_samples": 997,
+      "power_mean_train": 52.95,
+      "on_fraction_train": 0.104,
+      "baseline_median_w": 0.22
+    },
+    "electric_kettle": {
+      "train_samples": 997,
+      "power_mean_train": 263.26,
+      "on_fraction_train": 0.131,
+      "baseline_median_w": 0.17
+    }
+  }
+}

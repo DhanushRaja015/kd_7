@@ -1,0 +1,53 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Streamlit (keep config.toml, ignore secrets only)
+.streamlit/secrets.toml
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data files (large datasets)
+data/raw/
+data/*.csv
+data/*.h5
+data/*.hdf5
+!data/sample/*.csv
+
+# Trained models (large artifacts)
+models/*.joblib
+models/*.pkl
+models/*.h5
+!models/.gitkeep
+
+# Reports
+reports/*.csv
+reports/*.json
+!reports/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log
